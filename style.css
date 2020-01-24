@@ -61,7 +61,7 @@ body{
 }
 
 .bottom-section {
-   height: 300px;
+   height: 500px;  /* use 300px to be more accurate to jpeg */
    width: 50%;
    border: 1px grey solid;
    font-size: 3rem;
@@ -74,4 +74,12 @@ body{
    letter-spacing: 5px;
    box-shadow: 1px 3px 4px 0px rgba(0, 0, 0, 0.75);
 
+}
+
+.position-box{
+   width: 100px;
+   height: 100px;
+   background: yellow;
+   position: sticky;
+   top: 10px;
 }
